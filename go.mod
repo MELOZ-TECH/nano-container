@@ -5,7 +5,7 @@ go 1.26.4
 require (
 	github.com/Code-Hex/vz/v3 v3.8.0
 	github.com/containers/gvisor-tap-vsock v0.9.0
-	golang.org/x/sys v0.49.0
+	golang.org/x/sys v0.50.0
 )
 
 require (
