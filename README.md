@@ -38,7 +38,12 @@
 It boots a minimal Linux VM through **Virtualization.framework**, runs Docker inside it,
 and exposes the Docker socket to your Mac. Kubernetes is optional and off by default.
 
-> Status: **experimental**.
+> Status: **archived (November 2026)**. No further development is planned.
+> Apple's [`container`](https://github.com/apple/container) now ships persistent
+> Linux "container machines" on macOS 26, which covers the `nanoc machine` use case.
+> The libkrun fixes that came out of this work were sent upstream to
+> [libkrun](https://github.com/libkrun/libkrun). The code stays here for reference
+> and may be revisited.
 
 ## Demo
 
